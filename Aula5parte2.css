@@ -1,0 +1,53 @@
+/*EXEMPLO DE SELETOR COM TAG, OU SEJA,ESSA CONFIGURAÇÃO SERÁ UTILIZADA PARA TODAS AS TAGS "P" NA PAGINA*/
+/* TODO QUE TIVER A CONFIGURAÇÃO "p" SERA FORMATADO COM A MESMA FORMATAÇÃO*/
+
+p{font-size:25pt;
+ font-family:"calibri";
+ color:#AABBFF
+ }
+ 
+ /*exemplo de seletor usando o "id"*/
+ 
+ #a1,a3,a5{font-size:10pt;
+  font-family:"Arial";
+   color:#000000
+   }
+   
+   #a2{font-size:20PX;
+  font-family:"Arial";
+   color:#228B22
+   }
+   
+  
+/* Se eu quiser configurar um grupo com mesma fonte.Ex #a1,a3,a5{. Desta forma eu configuro apenas este grupo*/
+   #a4{font-size:40px;
+  font-family:"Verdana";
+   color:#8B4513
+   
+   }
+       }
+  
+.wlsl{font-family:"Comic Sans";
+   color:#00FF00
+   }
+
+/* configuracao para formatar a pagina em css precisa ser dentro do comando css*/
+   
+/* body{ comando para formatar a pagina em css*/
+/* background-color{ comando para formatar a cor de fundo da pagina*/
+/* background-image = usado para inserir imagem de fundo.Podemos inserir varias imagens ao mesmo tempo.Quantas imagens eu quiser*/ 
+/* background*/
+/*center-centralizar,top em cima, botton para baixo left-esquerda,right-*/
+
+body{background-color:#8B4513;
+     background-image:url("a.jpg"),url("b.jpg"),url("c.gif");
+	 background-repeat:no-repeat,repeat-x,repeat-y;
+	 background-position:center top,right top,left top;
+	 background-attachment:fixed;
+   }  
+   hr{
+	   height:5px;
+	   width:70%;
+	   background-color:#228B22;
+	   
+	   
